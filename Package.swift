@@ -30,7 +30,7 @@ let package = Package(
         .binaryTarget(
             name: Constants.OMSDKIabtechlabName,
             url: Constants.OMSDKIabtechlabURL,
-            checksum: Constants.OMSDKIabtechlabName
+            checksum: Constants.OMSDKIabtechlabChecksum
         )
     ]
 )
