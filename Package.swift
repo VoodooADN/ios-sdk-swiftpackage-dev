@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: Constants.voodooADNName,
+    platforms: [.iOS("15.0")],
     products: [
         .library(
             name: Constants.voodooADNName,
@@ -28,8 +29,8 @@ let package = Package(
 )
 
 enum Constants {
-    static var voodooADNURL: String { "https://framework.voodoo-adn-dev.com/iOS/sdk/4.31.0-rc1/VoodooAdn.zip"}
-    static var voodooADNChecksum: String { "a369c76adb41e430b0d81b414dad37070b9e623368ab688621cdb4a48130a20d" }
+    static var voodooADNURL: String { "https://framework.voodoo-adn-dev.com/iOS/sdk/4.31.0-ios15/VoodooAdn.zip"}
+    static var voodooADNChecksum: String { "15f19023def798a16791274a81760898d1fc911b85b5515c0ab24edee9f6cf14" }
     static var voodooADNName: String { "VoodooAdn" }
     static var OMSDKVoodooURL: String { "https://framework.voodoo-adn.com/omsdk/ios/1.6.1/OMSDK_Voodooio.zip"}
     static var OMSDKVoodooChecksum: String { "5a6b2c676db6ee8cc9d7afc320bc16a10268c65bf27987ab2c60dd4fbc5a141e" }
